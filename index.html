@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css">
+    <link rel="icon" type="image/png" href="./images/favicon/favicon.png">
+    <title>Devoir Bilan 1 : Créer un CV en ligne HTML / CSS / Référencement</title>
+    <meta name="description"
+        content="Ce devoir a pour objectif de mettre en pratique les différents éléments abordés dans le cours.">
+</head>
+
+<body>
+
+    <div class="cv">
+
+        <!--En tête-->
+
+        <header>
+            <div class="photo">
+
+                <!--Je ne souhaite pas mettre une vrai photo de moi.-->
+
+                <a href="./images/photo_de_profil/photo_de_profil.jpg" target="_blank">
+                    <img src="./images/photo_de_profil/photo_de_profil.jpg" class="logo" alt="photo_de_profil">
+                </a>
+            </div>
+
+            <div class="identite">
+                <h1>Emmanuel Torregrosa</h1>
+                <h2>Développeur Web et Web Mobile</h2>
+
+
+                <div class="contact">
+
+                    <!--Pour ne pas donner ma propre adresse mail, j'en invente une-->
+
+                    <div class="contact-logo">
+                        <i class="fi fi-sr-envelope"></i>
+                        <a href="mailto:johndoe199320@gmail.com">Mail</a>
+                    </div>
+
+                    <div class="contact-logo">
+                        <i class="fi fi-sr-home"></i>
+                        <a href="https://maps.app.goo.gl/6fkJiouzrt56Tyhu6">Adresse</a>
+                    </div>
+
+                <!--Pour ne pas donner mon propre numéro de téléphone, j'en invente un-->
+
+                    <div class="contact-logo">
+                        <i class="fi fi-sr-phone-call"></i>
+                        <a href="tel:0601000100">Téléphone</a>
+                    </div>
+
+                    <div class="contact-logo">
+                        <i class="fi fi-sr-car"></i>
+                        <span>Permis B</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+
+        <main class="contenu">
+
+            <!--Colonne de gauche-->
+
+            <aside class="sidebar">
+
+                <section>
+
+                    <h3>Compétences</h3>
+
+                    <div class="competence">
+                        <span>HTML</span>
+                        <span class="stars">★★★★☆</span>
+                    </div>
+
+                    <div class="competence">
+                        <span>CSS</span>
+                        <span class="stars">★★★★☆</span>
+                    </div>
+
+                    <div class="competence">
+                        <span>Javascript</span>
+                        <span class="stars">★★☆☆☆</span>
+                    </div>
+
+                    <div class="competence">
+                        <span>PHP</span>
+                        <span class="stars">★☆☆☆☆</span>
+                    </div>
+
+                </section>
+
+                <section>
+                    <h3>Langues</h3>
+
+                    <div class="language">
+                        <strong>Français</strong>
+                        <span>Langue maternelle</span>
+                    </div>
+
+                    <div class="language">
+                        <strong>Anglais</strong>
+                        <span>Professionnel</span>
+                    </div>
+
+                    <div class="language">
+                        <strong>Espagnol</strong>
+                        <span>Notions</span>
+                    </div>
+
+                </section>
+
+                <section>
+                    <h3>Qualités</h3>
+
+                    <ul>
+                        <li>Esprit d'équipe</li>
+                        <li>Autonomie</li>
+                        <li>Organisation</li>
+                        <li>Créativité</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Centres d'intérêt</h3>
+
+                    <ul>
+                        <li>Cinema</li>
+                        <li>Littérature</li>
+                        <li>Histoire</li>
+                        <li>Musique</li>
+                        <li>Gaming</li>
+                    </ul>
+                </section>
+
+            </aside>
+
+            <!--Block principal-->
+
+            <div class="principal">
+
+                <section>
+                    <h3>Profil</h3>
+                    <p class="profil">
+                        A la suite d'un baccalauréat littéraire et des études d'histoire, j'ai travaillé pendant sept
+                        années en librairie. J'ai décidé de me reconvertir dans le développement web, l'informatique
+                        étant très présent dans ma vie depuis mon enfance.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Formations</h3>
+
+                    <div class="experience">
+                        <div>
+                            <strong>Titre Professionnel DWWM</strong>
+                            <small>Centre Européen de Formation</small>
+                        </div>
+                        <span>2026/2027</span>
+                    </div>
+
+                    <div class="experience">
+                        <div>
+                            <strong>Licence d'Histoire</strong>
+                            <small>Université de Corse</small>
+                        </div>
+                        <span>2012/2015</span>
+                    </div>
+
+                    <div class="experience">
+                        <div>
+                            <strong>Baccalauréat</strong>
+                            <small>Lycée Fesch, Ajaccio</small>
+                        </div>
+                        <span>2011</span>
+                    </div>
+
+                </section>
+
+                <section>
+                    <h3>Stages</h3>
+
+                    <div class="experience">
+
+                        <div>
+                            <strong>Assistant radio</strong>
+                            <small>Radio La Fontaine</small>
+                        </div>
+                        <span>Juillet 2017 - Décembre 2017</span>
+
+                    </div>
+
+                    <div class="experience">
+
+                        <div>
+                            <strong>Editeur</strong>
+                            <small>éditions Albiana, Ajaccio</small>
+                        </div>
+                        <span>Avril 2015</span>
+
+                    </div>
+
+                    <div class="experience">
+
+                        <div>
+                            <strong>Libraire</strong>
+                            <small>Librairie La Marge, Ajaccio</small>
+                        </div>
+                        <span>Avril 2014</span>
+
+                    </div>
+
+                </section>
+
+                <section>
+                    <h3>Expérience professionnelle</h3>
+
+                    <div class="experience">
+                        <div>
+                            <strong>Libraire</strong>
+                            <small>Librairie La Marge, Ajaccio</small>
+                        </div>
+                        <span>Juillet 2020 - en cours</span>
+                    </div>
+
+                    <div class="experience">
+                        <div>
+                            <strong>Disquaire</strong>
+                            <small>Vibrations, Ajaccio</small>
+                        </div>
+                        <span>Juillet 2019 - Décembre 2019</span>
+                    </div>
+
+                    <div class="experience">
+                        <div>
+                            <strong>Libraire</strong>
+                            <small>Librairie La Marge, Ajaccio</small>
+                        </div>
+                        <span>Septembre 2017 - Décembre 2018</span>
+                    </div>
+
+                </section>
+            </div>
+
+        </main>
+
+
+        <footer class="footer">
+
+            <div class="social">
+
+                <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+                    <i class="fi fi-brands-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/" target="_blank" aria-label="GitHub">
+                    <i class="fi fi-brands-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                    <i class="fi fi-brands-instagram"></i>
+                </a>
+
+            </div>
+
+            <p>Mis à jour le : JJ/MM/AAAA</p>
+
+        </footer>
+
+    </div>
+
+</body>
